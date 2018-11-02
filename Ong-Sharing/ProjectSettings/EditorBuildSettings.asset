@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/HoloToolkit-Examples/Input/Scenes/InputManagerTest_OngSharing.unity
+    guid: 55062a095112aad488e13c94299ff3ba
   m_configObjects: {}
