@@ -1,6 +1,8 @@
 # Ong-Sharing-Drag-n-Drop
 
-Instructions:
+Tested in Unity 2018.1.9f1 and 2018.1.9f2
+
+Instructions for Legacy MRTK:
 
 1. Import the OngDragDropSharing.unitypackage into project
 
