@@ -16,6 +16,12 @@ Instructions for Legacy MRTK:
 Your app is now a shared experience! All actions will be shared. 
 Note: Sharing of app states is not yet supported.
 
-To enable movements of objects:
+To enable real-time movement syncing of objects:
+
+1. On the object you want to sync movements, drag and drop (or insert) the PhotonTransformView script
+2. Select any or all syncing features (position, rotation, scale)
+3. Drag the PhotonTransformView script into the "Observed Components" empty field (it will automatically be generated on your object)
+4. In the PhotonView script (it was automatically generated) - select the dropdown list and change it from "Fixed" to "Takeover" - this allows all people to takeover ownership, rather than just letting ownership of that object be fixed to the first person who joined.
+
 
 
