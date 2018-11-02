@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114468870309805804}
   - component: {fileID: 114395044898760208}
   m_Layer: 2
-  m_Name: SharingGeneratorNew
+  m_Name: OngSharingDragDrop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -113,7 +113,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   photonView: {fileID: 114998038604293958}
-  EventDataString: 
 --- !u!114 &114395044898760208
 MonoBehaviour:
   m_ObjectHideFlags: 1
