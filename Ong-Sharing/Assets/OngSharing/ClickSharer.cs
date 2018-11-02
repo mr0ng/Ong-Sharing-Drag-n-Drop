@@ -81,12 +81,6 @@ public class ClickSharer : MonoBehaviour, IInputHandler, IFocusable, IInputClick
     {
         if (!TO)
             SeanSharingManager.Instance.InputClicked(sharingID);
-
-
-        if (SeanSharingManager.IED3 == null)
-        {
-            SeanSharingManager.IED3 = eventData;
-        }
     }
 
     public void OnInputUp(InputEventData eventData)
