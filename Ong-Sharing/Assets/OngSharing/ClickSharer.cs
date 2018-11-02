@@ -68,6 +68,13 @@ public class ClickSharer : MonoBehaviour, IInputHandler, IFocusable, IInputClick
             {
                 SeanSharingManager.Instance.InputDown(sharingID);
                 print("Sending OnInputDown from: " + gameObject.name);
+
+                //Temporary method to transfer ownership of objects for movement syncing
+
+                if (GetComponent<PhotonView>() != null)
+                {
+                    GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.player);
+                }
             }
         }
         else
